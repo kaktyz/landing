@@ -1,0 +1,55 @@
+@charset "UTF-8";
+.fp-tableCell {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.home {
+  background: url("../img/bground.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.mainPicture {
+  width: 40vh;
+  height: 40vh;
+  border-radius: 20vh;
+}
+
+.aboutMe {
+  background: url(../img/мщвщзфв.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.aboutWords {
+  color: #fff;
+  font-size: 5vh;
+}
+
+.slide img {
+  width: 40vh;
+  height: 40vh;
+}
+
+.p-tooltip {
+  color: #757575 !important;
+  font-size: 9vh !important;
+}
+
+.contcards > a > img {
+  width: 10vh;
+  height: 10vh;
+}
+
+.contacts {
+  background: url("../img/bground.jpg");
+  background-size: cover;
+}
+/*# sourceMappingURL=main.css.map */

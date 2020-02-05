@@ -1,0 +1,171 @@
+/* Общие настройки */
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    transition: 1s;
+}
+a{
+    color: #90a4ae;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+}
+.conteiner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #eceff1;
+
+    /* border: 1px solid black; */
+
+    max-width: 1170px;
+    margin: auto;
+    height: 100vh;
+}
+/* img{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+} */
+body{
+    background-color: #eceff1;
+
+}
+
+/* Началась навигация */
+
+.navbar{
+    padding: 0 15px 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 5vh;
+    height: 5vh;
+    transition: 1s;
+    box-shadow: none;
+}
+.logo:hover{
+    border-radius: 10vh;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.menu{
+    height:  40%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 5vh;
+}
+.menu>li{
+    list-style-type: none;
+}
+.menu>li>a{
+    padding: 0 20px 0 20px ;
+}
+.menu>li>a:hover{
+    border-radius: 20px;
+    padding: 0 20px 0 20px ;
+    transition: 1s;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+/* Первая страничка */
+
+#home{
+    
+
+}
+.mainPicture{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    width: 30vh;
+    height: 30vh;
+    border-radius: 6vh;
+}
+.hiWord{
+    padding-left: 10vh;
+}
+
+/* Втрая странца */
+
+#aboutMe{
+
+}
+.aboutWords{
+    padding: 0;
+    margin: 0 auto;
+    width: 80%;
+}
+
+/* Proj */
+
+#projeckts{
+    justify-content: space-around;
+    transition: 0.3s;
+}
+#projeckts>a:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.card{  
+    width: 30vh;
+    height: 30vh;
+    border-radius: 1vh;
+}
+.card>img{
+    width: 100%;
+    height: 80%;
+}
+.descr{
+    padding: 1vh;
+}
+/* Четвертая странца */
+
+#hobby{
+
+}
+
+
+/* TODO Разобраться */
+/* Пятая странца */
+
+#contacts{
+    /* flex-direction: column;
+    justify-content: space-around; */
+}
+
+.linksForContact{
+    border: 1px solid black;
+    width: 100%;
+}
+.contcards{
+    border: 1px solid red;
+    flex-direction: row;
+}
+#contacts img{
+    width: 10vh;
+    height: 10vh;
+    border-radius: 30vh;
+
+}
+#contacts img:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+
+
+
+/* Кнопка вверх */
+
+#back-top {
+    position: sticky;
+    top: 90vh;
+    margin-left: 165vh;
+    transition: 0.2;
+}
+
+.arrowUp>a>img{
+    width: 3em;
+    height: 3em;
+}
+

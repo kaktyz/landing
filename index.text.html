@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AK</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.min.css" integrity="sha256-+dIh4jG2jQTHZwW81yUo8h6tzXWcNumyNL5XPZbwp1E=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+
+<body>
+    
+    <div id="fullpage">
+
+        <div class="section home">
+            
+            <img class="mainPicture" src="./img/main_picture_me.jpg" alt="mainPicture">
+            <div class="hiWord">
+
+                <h4>Приветствую на странице Антона.</h4>
+
+            </div>
+
+        </div>
+
+        <div class="section aboutMe">
+            
+            <div class="aboutWords">
+            
+                Тут инфа обо мне. Кто я и чем занимаюсь.
+    
+            </div>
+
+        </div>
+
+        <div class="section projeckts">
+
+            <div class="slide">
+    
+                    <img src="./img/to do list.png" alt="">
+                    <div class="descr">
+    
+                        <p>Обычная TODO-ха</p>
+    
+                    </div>
+        
+            </div>
+
+            <div class="slide">
+    
+                    <img src="./img/weather.png" alt="weather">
+                    <div class="descr">
+                        
+                        <p>Работа с API показывает прогноз погоды.</p>
+    
+                    </div>
+        
+            </div>
+
+        </div>
+
+        <div class="section hobby">
+            
+            <div class="hiWord">
+            
+                В свободное время ЧГК и волейболл
+    
+            </div>
+            <img class="mainPicture" src="./img/VolleyBall_me.jpg" alt="mainPicture">
+
+        </div>
+
+        <div class="section contacts">
+            
+            <div class="contactWords">
+
+                <h1>Заинтересовало?</h1>
+                <h3>Пишите!</h3>
+    
+            </div>   
+            
+            <div class="linksForContact">
+    
+                <div class="contcards"><a href="https://wa.me/79169138577"><img src="./img/whatsapp.jpg" alt="whatsapp"></a></div>
+                <div class="contcards"><a href="https://vk.com/tatowkin"><img src="./img/vk.png" alt="vk"></a></div>
+                <div class="contcards"><a href="https://www.instagram.com/antowkka/"><img src="./img/insta.png" alt="instagramm"></a></div>
+                
+                
+    
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.min.js" integrity="sha256-caNcSA0LvOCX90PTuEbwl+V09xPMca13CJUasl+VCtk=" crossorigin="anonymous"></script>
+
+    <script>
+    
+        new fullpage('#fullpage', {
+
+            autoScrolling:true,
+            navigation: true,
+            navigationTooltips: ['home', 'about', 'projeckts', 'hobby','contacts'],
+            showActiveTooltip: true,
+            scrollingSpeed: 1000,
+            controlArrows: false,
+            slidesNavigation: true
+        
+        });
+    
+    </script>    
+
+</body>
+
+</html>

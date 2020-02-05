@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Landing</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<header>
+
+    <div class="navbar">
+
+        <div><a href="#firstPadge"><img  class="logo" src="./img/ak_logo.png" alt="logo"></a></div>
+
+        <ul class="menu">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#aboutMe">ABOUT ANTON</a></li>
+            <li><a href="#projeckts">PROJECKTS</a></li>
+            <li><a href="#hobby">HOBBY</a></li>
+            <li><a href="#contacts">CONTACTS</a></li>
+        </ul>
+
+    </div>
+
+</header>
+
+<div class="arrowUp" id="back-top">
+    
+    <a href="#home" onclick="return up()"><img src="./img/arrowUp.jpg" alt="arrow"></a>  
+
+</div>
+
+<body>
+    
+    <div id="home" class="conteiner">
+
+        <img class="mainPicture" src="./img/main_picture_me.jpg" alt="mainPicture">
+        <div class="hiWord">
+
+            <h4>Приветствую на странице Антона.</h4>
+
+        </div>
+
+    </div>
+
+    <div id="aboutMe" class="conteiner">
+
+        <div class="aboutWords">
+            
+            Тут инфа обо мне. Кто я и чем занимаюсь.
+
+        </div>
+
+    </div>
+
+    <div id="projeckts" class="conteiner">
+
+        <!-- Тут вставить слайдер из 7 проектов -->
+
+        <a href="#">
+
+            <div class="card">
+
+                <img src="./img/to do list.png" alt="">
+                <div class="descr">
+
+                    <p>Обычная TODO-ха</p>
+
+                </div>
+    
+            </div>
+
+        </a>
+
+        <a href="https://github.com/kaktyz/weather">
+
+            <div class="card">
+
+                <img src="./img/weather.png" alt="weather">
+                <div class="descr">
+                    
+                    <p>Работа с API показывает прогноз погоды.</p>
+
+                </div>
+    
+            </div>
+
+        </a>
+
+    </div>
+
+    <div id="hobby" class="conteiner">
+
+        <div class="hiWord">
+            
+            В свободное время ЧГК и волейболл
+
+        </div>
+        <img class="mainPicture" src="./img/VolleyBall_me.jpg" alt="mainPicture">
+
+
+    </div>
+
+    <div id="contacts" class="conteiner">
+
+        <div class="contactWords">
+
+            <h1>Заинтересовало?</h1>
+            <h3>Пишите!</h3>
+
+        </div>   
+        
+        <div class="linksForContact">
+
+            <div class="contcards"><a href="https://wa.me/79169138577"><img src="./img/whatsapp.jpg" alt="whatsapp"></a></div>
+            <div class="contcards"><a href="https://vk.com/tatowkin"><img src="./img/vk.png" alt="vk"></a></div>
+            <div class="contcards"><a href="https://www.instagram.com/antowkka/"><img src="./img/insta.png" alt="instagramm"></a></div>
+            
+            
+
+        </div>
+
+
+    </div>
+
+
+    
+
+</body>
+<script type="text/javascript" src="index.js"></script>
+</html>
